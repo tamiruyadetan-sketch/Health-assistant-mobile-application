@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="#FFEBEE"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+    <!-- Blood drop illustration -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M120,40 C120,40 60,110 60,150 C60,183 87,210 120,210 C153,210 180,183 180,150 C180,110 120,40 120,40 Z" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M110,140 C110,140 100,150 100,160 C100,170 105,175 110,175 Z" />
+</vector>

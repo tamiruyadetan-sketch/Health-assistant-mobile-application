@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#F3E5F5"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Healthy plate -->
+    <path
+        android:fillColor="#CE93D8"
+        android:pathData="M20,190 C20,175 45,165 90,165 C135,165 160,175 160,190 C160,205 135,215 90,215 C45,215 20,205 20,190 Z" />
+
+    <!-- Food inside plate - leafy greens veggies -->
+    <path
+        android:fillColor="#884EA0"
+        android:pathData="M35,155 C40,125 70,110 100,105 C130,100 145,115 140,140 C130,155 105,160 80,150 C60,140 40,145 35,155 Z" />
+
+    <!-- Carrot (Vitamin A for eyes) -->
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M70,180 L120,60 L140,75 L90,195 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M70,180 L120,65 C125,60 130,62 132,68 C134,75 130,80 128,85 C124,90 118,85 115,82 C110,78 108,72 105,70 C98,68 92,75 88,82 C84,88 82,98 84,110 C86,125 88,140 92,150 C96,165 100,175 108,180 Z" />
+
+    <!-- Egg (Vitamin A & Zinc) -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M150,100 C165,80 165,120 150,100 Z" />
+    <path
+        android:fillColor="#FBC02D"
+        android:pathData="M150,100 C160,85 160,115 150,100 Z" />
+
+    <!-- Fish (Omega-3 for eye health) -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M80,100 C65,100 55,110 50,120 L55,140 C60,135 70,130 80,130 Z" />
+    <path
+        android:fillColor="#00695C"
+        android:pathData="M80,115 C70,115 60,125 55,135 L60,150 C65,145 75,140 80,140 L80,115 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M110,110 C115,110 125,115 130,120 L135,130 C132,125 122,120 115,120 Z" />
+
+    <!-- Nuts (Vitamin E) -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M150,70 C145,45 165,40 175,65 C170,80 150,80 145,60 C150,65 152,70 150,70 Z" />
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M152,55 C148,40 165,35 173,58 C168,72 150,72 146,58 C150,62 151,57 152,55 Z" />
+
+    <!-- Sun for eye-clear vision -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M170,105 L170,125 L190,125 L190,105 L170,105 Z" />
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M175,85 L175,70 M170,75 L185,75 M175,65 L175,50 M170,55 L185,55 M180,60 L180,45 M170,70 L170,55" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

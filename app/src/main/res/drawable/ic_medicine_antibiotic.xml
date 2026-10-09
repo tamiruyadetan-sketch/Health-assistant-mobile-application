@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Pill bottle -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M100,80 L140,80 L140,110 C140,115 135,120 135,120 L105,120 C105,120 100,115 100,110 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M102,82 L138,82 L138,108 C138,112 134,116 134,116 L106,116 C106,116 102,112 102,108 Z" />
+    <path
+        android:strokeColor="#90A4AE"
+        android:strokeWidth="2"
+        android:pathData="M100,80 L140,80 L140,110 C140,115 135,120 135,120 L105,120 C105,120 100,115 100,110 Z" />
+
+    <!-- Bottle cap -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M98,78 L142,78 L142,84 L98,84 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M98,78 L142,78 L142,81 L98,81 Z" />
+
+    <!-- Label on bottle -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M105,90 L135,90 L135,105 L105,105 Z" />
+    <path
+        android:fillColor="#B2EBF2"
+        android:pathData="M107,92 L133,92 L133,103 L107,103 Z" />
+
+    <!-- Cross on label -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,93 L124,93 L124,97 L128,97 L128,93 L132,93 L132,107 L128,107 L128,103 L124,103 L124,107 L120,107 Z" />
+    <path
+        android:fillColor="#26A69A"
+        android:pathData="M120,94 L123,94 L123,97 L126,97 L126,94 L129,94 L129,106 L126,106 L126,103 L123,103 L123,106 L120,106 Z" />
+
+    <!-- Pills spilling out from bottle -->
+    <!-- Red capsule top -->
+    <path
+        android:fillColor="#E57373"
+        android:pathData="M70,140 C75,135 85,135 90,140 C95,145 90,150 85,150 C80,150 70,145 70,140 Z" />
+    <path
+        android:strokeColor="#EF5350"
+        android:strokeWidth="1.5"
+        android:pathData="M70,140 C75,135 85,135 90,140 C95,145 90,150 85,150 C80,150 70,145 70,140 Z" />
+
+    <!-- Capsule bottom -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M70,150 C75,145 85,145 90,150 C95,155 90,160 85,160 C80,160 70,155 70,150 Z" />
+    <path
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="1.5"
+        android:pathData="M70,150 C75,145 85,145 90,150 C95,155 90,160 85,160 C80,160 70,155 70,150 Z" />
+
+    <!-- White round tablet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M110,130 C115,125 125,125 130,130 C135,135 125,140 115,140 C105,140 100,135 110,130 Z" />
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M112,132 C115,129 123,129 125,132 C127,135 123,138 117,138 C111,138 108,135 112,132 Z" />
+    <path
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="1.5"
+        android:pathData="M110,130 C115,125 125,125 130,130 C135,135 125,140 115,140 C105,140 100,135 110,130 Z" />
+
+    <!-- Divisible line on tablet -->
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M110,135 L130,135" />
+
+    <!-- Yellow capsule (antibiotic) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M140,140 C145,135 155,135 160,140 C165,145 160,150 155,150 C150,150 140,145 140,140 Z" />
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="1.5"
+        android:pathData="M140,140 C145,135 155,135 160,140 C165,145 160,150 155,150 C150,150 140,145 140,140 Z" />
+
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M140,150 C145,145 155,145 160,150 C165,155 160,160 155,160 C150,160 140,155 140,150 Z" />
+    <path
+        android:strokeColor="#FFB300"
+        android:strokeWidth="1.5"
+        android:pathData="M140,150 C145,145 155,145 160,150 C165,155 160,160 155,160 C150,160 140,155 140,150 Z" />
+
+    <!-- Capsule divider -->
+    <path
+        android:strokeColor="#F9A825"
+        android:strokeWidth="1.5"
+        android:pathData="M140,150 C145,145 155,145 160,150 C165,155 160,160 155,160 C150,160 140,155 140,150 Z" />
+
+    <!-- Capsule cap line -->
+    <path
+        android:strokeColor="#F57F17"
+        android:strokeWidth="1"
+        android:pathData="M145,140 L158,140 M145,160 L158,160" />
+
+    <!-- Liquid medicine / syrup bottle -->
+    <path
+        android:fillColor="#CE93D8"
+        android:pathData="M160,85 C160,75 165,72 165,72 L170,72 C170,72 175,75 175,85 L175,110 C175,115 170,118 170,118 L160,118 C160,118 155,115 155,110 Z" />
+    <path
+        android:fillColor="#E1BEE7"
+        android:pathData="M162,86 C162,78 167,75 167,75 L168,75 C168,75 173,78 173,86 L173,108 C173,113 168,115 168,115 L162,115 C162,115 157,113 157,108 Z" />
+    <path
+        android:strokeColor="#AB47BC"
+        android:strokeWidth="1.5"
+        android:pathData="M160,85 C160,75 165,72 165,72 L170,72 C170,72 175,75 175,85 L175,110 C175,115 170,118 170,118 L160,118 C160,118 155,115 155,110 Z" />
+
+    <!-- Syrup liquid inside -->
+    <path
+        android:fillColor="#BA68C8"
+        android:pathData="M162,95 L173,95 L173,108 C173,112 170,113 168,113 L167,113 C165,113 162,112 162,108 Z" />
+
+    <!-- Syrup dropper tip -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M165,72 L165,60 C165,55 167,50 167,50 C167,50 169,55 169,60 L169,72 Z" />
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M166,72 L166,62 C166,58 168,54 168,54 C168,54 168,58 168,62 L168,72 Z" />
+
+    <!-- Dropper bulb -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M164,74 C163,70 163,66 165,64 C167,66 167,70 166,74 Z" />
+
+    <!-- Lollipop / candy medicine (sweet syrup reminder) -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M60,75 C60,65 68,60 68,60 C68,60 76,65 76,75 C76,85 68,90 68,90 C68,90 60,85 60,75 Z" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M62,75 C62,68 67,64 67,64 C67,64 72,68 72,75 C72,82 67,86 67,86 C67,86 62,82 62,75 Z" />
+
+    <!-- Lollipop stick -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M68,72 L68,50 C68,48 70,46 70,46 C70,46 72,48 72,50 L72,72 Z" />
+
+    <!-- Lollipop spiral -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M68,75 C65,75 63,73 63,70 C63,67 65,65 68,65 C71,65 73,67 73,70 C73,73 71,75 68,75 Z" />
+
+    <!-- Spoon with liquid medicine -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M100,70 C100,55 115,50 115,50 C115,50 115,55 100,55 C100,60 100,65 100,70 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M102,68 C102,58 113,54 113,54 C113,54 113,58 102,58 C102,62 102,66 102,68 Z" />
+
+    <!-- Spoon handle -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M108,65 L130,50 C132,48 134,48 134,50 C134,52 132,54 130,54 L108,68 Z" />
+
+    <!-- Medicine cross emblem -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

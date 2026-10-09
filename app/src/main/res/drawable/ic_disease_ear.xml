@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Left outer ear (pinna) -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M105,48 C150,46 178,78 178,120 C178,168 145,198 115,198 C90,198 80,182 92,165 C130,155 125,140 130,120 C133,100 125,80 110,72 C95,62 80,75 80,92 C80,105 88,110 98,108 C110,105 115,105 120,100 C125,110 115,125 105,130 C90,140 82,158 100,170 C65,175 45,158 55,135" />
+
+    <!-- Right outer ear (pinna) -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M135,48 C90,46 62,78 62,120 C62,168 95,198 125,198 C150,198 160,182 148,165 C110,155 115,140 110,120 C107,100 115,80 130,72 C145,62 160,75 160,92 C160,105 152,110 142,108 C130,105 125,105 120,100 C115,110 125,125 135,130 C150,140 158,158 140,170 C175,175 195,158 185,135" />
+
+    <!-- Ear canal / inner ear detail (left) -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M112,118 C120,118 126,122 126,128 C126,134 118,138 108,134 C102,130 102,122 112,118 Z" />
+
+    <!-- Ear canal / inner ear detail (right) -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M128,118 C120,118 114,122 114,128 C114,134 122,138 132,134 C138,130 138,122 128,118 Z" />
+
+    <!-- Sound waves (3 circles) -->
+    <path
+        android:strokeColor="#0288D1"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M35,95 A38,38 0 0,0 35,145" />
+    <path
+        android:strokeColor="#0288D1"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M28,80 A58,58 0 0,0 28,162" />
+    <path
+        android:strokeColor="#0288D1"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M22,65 A78,78 0 0,0 22,178" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M180,40 h20 v15 h15 v20 h-15 v20 h-20 v-20 h-15 v-20 h15 Z" />
+</vector>

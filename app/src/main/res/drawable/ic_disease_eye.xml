@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#EDE7F6"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Outer eye shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#512DA8"
+        android:strokeWidth="5"
+        android:pathData="M20,120 C60,30 180,30 220,120 C180,210 60,210 20,120 Z" />
+
+    <!-- Upper eyelid -->
+    <path
+        android:fillColor="#D1C4E9"
+        android:pathData="M20,120 C60,60 180,60 220,120 C180,125 60,125 20,120 Z" />
+
+    <!-- Iris -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M120,120m-40,0a40,40 0 1,0 80,0a40,40 0 1,0 -80,0" />
+
+    <!-- Pupil -->
+    <path
+        android:fillColor="#1A164F"
+        android:pathData="M120,120m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0" />
+
+    <!-- Light reflection -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M108,106m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M118,132m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+
+    <!-- Viral/HIV focus ring (small ring around iris) -->
+    <path
+        android:strokeColor="#C2185B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M120,108 A28,28 0 0,1 120,152" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

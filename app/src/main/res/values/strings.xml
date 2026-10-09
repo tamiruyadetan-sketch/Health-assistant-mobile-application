@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Disease Information &amp; Health Assistant Mobile Application</string>
+    <string name="splash_welcome">Welcome to Health assistant app</string>
+
+    <!-- Color/theme tags replaced with inline text in the Compose UI. -->
+
+    <!-- DiseaseDetailScreen section titles (language selected in topbar) -->
+    <string name="section_definition">Definition</string>
+    <string name="section_definition_om">Hiika</string>
+    <string name="section_definition_am">ትርጉም</string>
+
+    <string name="section_types">See Types of this Disease</string>
+    <string name="section_types_om">Gosoota Dhibee Kanaa Ilaali</string>
+    <string name="section_types_am">የዚህን በሽታ አይነቶች ይመልከቱ</string>
+
+    <string name="section_symptoms">Symptoms</string>
+    <string name="section_symptoms_om">Mallattoolee</string>
+    <string name="section_symptoms_am">ምልክቶች</string>
+
+    <string name="section_causes">Causes</string>
+    <string name="section_causes_om">Sababoota</string>
+    <string name="section_causes_am">መንስኤዎች</string>
+
+    <string name="section_prevention">Prevention</string>
+    <string name="section_prevention_om">Ittisa</string>
+    <string name="section_prevention_am">መከላከል</string>
+
+    <string name="section_safety_practices">Safety Practices</string>
+    <string name="section_safety_practices_om">Of-eeggannoo</string>
+    <string name="section_safety_practices_am">የጥንቃቄ ተግባራት</string>
+
+    <string name="section_food_guidance">Food Guidance &amp; Healthy Diet</string>
+    <string name="section_food_guidance_om">Gorsa Nyaataa</string>
+    <string name="section_food_guidance_am">የምግብ መመሪያ</string>
+
+    <string name="section_favorite">Add to Favorites</string>
+    <string name="section_favorite_om">Jaallatamaatti Dabali</string>
+    <string name="section_favorite_am">ወደ ተወዳጅ ያክሉ</string>
+
+    <string name="section_favorited">Favorited</string>
+    <string name="section_favorited_om">Jaallatamaa</string>
+    <string name="section_favorited_am">ተወዳጅ</string>
+
+    <string name="section_learn_more">Learn More (Online Reference)</string>
+    <string name="section_learn_more_om">Dabalaan Baradhu (Online)</string>
+    <string name="section_learn_more_am">ተጨማሪ ይወቁ (በመስመር ላይ)</string>
+
+    <string name="image_disease_ear">Ear disease illustration</string>
+    <string name="image_disease_eye">Eye disease illustration</string>
+    <string name="image_disease_heart">Heart disease illustration</string>
+    <string name="image_food_default">Healthy food guidance image</string>
+    <string name="image_food_ear">Ear food guidance image</string>
+    <string name="image_food_eye">Eye food guidance image</string>
+    <string name="image_food_heart">Heart food guidance image</string>
+    <string name="image_disease_cancer">Cancer disease illustration</string>
+    <string name="image_food_cancer">Cancer food guidance image</string>
+    <string name="image_disease_brain">Brain disease illustration</string>
+    <string name="image_food_brain">Brain food guidance image</string>
+    <string name="image_disease_lung">Lung disease illustration</string>
+    <string name="image_food_lung">Lung food guidance image</string>
+    <string name="image_disease_tb">Tuberculosis disease illustration</string>
+    <string name="image_food_tb">Tuberculosis food guidance image</string>
+    <string name="image_disease_pneumonia">Pneumonia disease illustration</string>
+    <string name="image_food_pneumonia">Pneumonia food guidance image</string>
+    <string name="image_disease_hypertension">Hypertension disease illustration</string>
+    <string name="image_food_hypertension">Hypertension food guidance image</string>
+    <string name="image_disease_typhoid">Typhoid disease illustration</string>
+    <string name="image_food_typhoid">Typhoid food guidance image</string>
+    <string name="image_disease_hepatitis">Hepatitis disease illustration</string>
+    <string name="image_food_hepatitis">Hepatitis food guidance image</string>
+    <string name="image_disease_asthma">Asthma disease illustration</string>
+    <string name="image_food_asthma">Asthma food guidance image</string>
+    <string name="image_disease_stroke">Stroke disease illustration</string>
+    <string name="image_food_stroke">Stroke food guidance image</string>
+</resources>

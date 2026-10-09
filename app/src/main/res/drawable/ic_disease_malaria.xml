@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Mosquito body -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M140,80 C155,75 170,75 185,80 C190,82 190,88 185,90 C170,95 155,95 140,90 C135,88 135,82 140,80 Z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M142,82 C155,78 168,78 183,82 C187,84 187,87 183,89 C168,93 155,93 142,89 C138,87 138,84 142,82 Z" />
+
+    <!-- Mosquito abdomen -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M155,88 C160,85 175,85 180,88 C182,90 180,95 175,97 C165,100 155,100 155,97 C153,95 153,90 155,88 Z" />
+
+    <!-- Mosquito head -->
+    <path
+        android:fillColor="#1a1a1a"
+        android:pathData="M140,85 C135,82 133,87 140,90 C147,87 145,82 140,85 Z" />
+
+    <!-- Mosquito proboscis (mouth) -->
+    <path
+        android:fillColor="#616161"
+        android:pathData="M135,87 L125,87 L125,90 L135,90 Z" />
+
+    <!-- Mosquito wings -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M150,82 C145,60 125,55 115,60 C105,65 110,80 120,85 C130,88 140,85 150,82 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M150,82 C145,62 130,58 122,62 C114,66 118,78 126,83 C134,86 142,84 150,82 Z" />
+    <path
+        android:strokeColor="#64B5F6"
+        android:strokeWidth="1"
+        android:pathData="M150,82 C145,60 125,55 115,60 C105,65 110,80 120,85 C130,88 140,85 150,82 Z" />
+
+    <!-- Other wing -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M160,82 C165,60 175,55 185,60 C195,65 190,80 180,85 C170,88 162,85 160,82 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M160,82 C165,62 172,58 180,62 C188,66 184,78 176,83 C168,86 162,84 160,82 Z" />
+    <path
+        android:strokeColor="#64B5F6"
+        android:strokeWidth="1"
+        android:pathData="M160,82 C165,60 175,55 185,60 C195,65 190,80 180,85 C170,88 162,85 160,82 Z" />
+
+    <!-- Mosquito legs -->
+    <path
+        android:strokeColor="#CFD8DC"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M145,88 L130,75 M148,90 L135,95 M170,88 L185,75 M168,90 L180,95" />
+
+    <!-- Plasmodium parasite inside mosquito -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M148,70 C152,67 158,67 162,70 C166,73 168,78 166,82 C164,85 158,87 154,85 C150,83 146,78 148,70 Z" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M158,74 C160,72 164,72 166,74 C168,76 168,80 166,82 C164,84 160,84 158,82 C156,80 154,76 158,74 Z" />
+
+    <!-- Parasite rings -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M154,75 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M158,78 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Human blood cell -->
+    <path
+        android:fillColor="#EF9A9A"
+        android:pathData="M60,150 C65,145 75,145 80,150 C85,155 75,165 65,165 C55,165 50,155 60,150 Z" />
+    <path
+        android:strokeColor="#E57373"
+        android:strokeWidth="1"
+        android:pathData="M60,150 C65,145 75,145 80,150 C85,155 75,165 65,165 C55,165 50,155 60,150 Z" />
+
+    <!-- Parasite in blood cell -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M68,155 C70,153 74,153 76,155 C78,157 78,159 76,161 C74,163 70,163 68,161 C66,159 66,157 68,155 Z" />
+
+    <!-- Fever thermometer -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M180,145 L190,145 L190,170 L180,170 Z" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M181,147 L189,147 L189,167 L181,167 Z" />
+    <path
+        android:strokeColor="#C62828"
+        android:strokeWidth="1.5"
+        android:pathData="M180,145 L190,145 L190,170 L180,170 Z" />
+
+    <!-- Thermometer bulb -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M185,170 C183,175 187,178 185,180 C183,183 181,180 181,177 C181,174 183,172 185,170 Z" />
+
+    <!-- Water drop / sweat (fever) -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M120,55 C120,48 125,42 130,42 C135,42 140,48 140,55 C140,62 130,68 130,68 C130,68 120,62 120,55 Z" />
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M122,55 C122,50 126,45 129,45 C133,45 137,50 137,55 C137,59 130,63 130,63 C130,63 122,59 122,55 Z" />
+
+    <!-- Second sweat drop -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M145,60 C145,55 148,51 151,51 C154,51 157,55 157,60 C157,65 151,69 151,69 C151,69 145,65 145,60 Z" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

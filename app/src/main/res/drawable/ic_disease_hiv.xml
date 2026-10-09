@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFEBEE"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- HIV Virus envelope -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M120,110 C90,110 65,95 65,70 C65,45 90,30 120,30 C150,30 175,45 175,70 C175,95 150,110 120,110 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M120,112 C92,112 68,97 68,72 C68,47 92,32 120,32 C148,32 172,47 172,72 C172,97 148,112 120,112 Z" />
+
+    <!-- Virus core (capsid) -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M120,95 C105,95 95,85 95,70 C95,55 105,50 120,50 C135,50 145,55 145,70 C145,85 135,95 120,95 Z" />
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M120,97 C107,97 98,88 98,72 C98,56 107,53 120,53 C133,53 142,56 142,72 C142,88 133,97 120,97 Z" />
+
+    <!-- Virus spikes / envelope proteins -->
+    <path
+        android:strokeColor="#F44336"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M120,30 L120,18 M68,70 L55,65 M172,70 L185,65 M95,30 L85,20 M145,30 L155,20 M85,95 L75,100 M155,95 L165,100 M120,110 L120,125" />
+
+    <!-- Spikes outline -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M120,18 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M55,65 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M185,65 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M85,20 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M155,20 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M75,100 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M165,100 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M120,125 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+
+    <!-- RNA strands inside virus -->
+    <path
+        android:strokeColor="#FFCDD2"
+        android:strokeWidth="1.5"
+        android:pathData="M105,70 C108,65 112,65 115,70 M118,70 C121,65 125,65 128,70 M105,80 C108,75 112,75 115,80 M118,80 C121,75 125,75 128,80" />
+
+    <!-- CD4 cell (T-cell) - immune cell being attacked -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M180,170 C165,170 155,160 155,145 C155,130 165,120 180,120 C195,120 205,130 205,145 C205,160 195,170 180,170 Z" />
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M180,168 C167,168 158,159 158,146 C158,133 167,124 180,124 C193,124 202,133 202,146 C202,159 193,168 180,168 Z" />
+
+    <!-- CD4 cell nucleus -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M180,150 C175,148 170,148 170,153 C170,158 175,160 180,160 C185,160 190,158 190,153 C190,148 185,148 180,150 Z" />
+
+    <!-- CD4 receptor dots on surface -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M165,135 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M195,135 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M170,165 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M190,165 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M180,125 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Virus attacking cell -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="2"
+        android:pathData="M172,112 C178,112 185,118 190,130" />
+
+    <!-- Small virus particles outside -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M40,160 C44,158 48,159 48,163 C48,167 44,170 40,170 C36,170 32,167 32,163 C32,159 36,158 40,160 Z" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M34,163 L46,163 M36,160 L44,160 M36,166 L44,166" />
+
+    <!-- Red Ribbon (HIV awareness symbol) -->
+    <!-- Top loop -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M110,100 C110,100 120,75 120,75 C120,75 130,100 130,100 C130,100 128,105 120,105 C112,105 110,100 110,100 Z" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M110,100 C110,100 120,77 120,77 C120,77 130,100 130,100 C130,100 128,104 120,104 C112,104 110,100 110,100 Z" />
+
+    <!-- Ribbon tails -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M120,105 L120,145 C120,145 115,150 112,152 L112,152 C112,152 108,148 108,145 C108,140 115,135 118,130 C120,128 120,128 120,128 Z" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M120,105 L120,143 C120,143 116,147 113,150 L113,150 C113,150 109,146 109,143 C109,139 115,136 117,132 C119,130 119,128 119,128 Z" />
+
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M120,105 L120,145 C120,145 125,150 128,152 L128,152 C128,152 132,148 132,145 C132,140 125,135 122,130 C120,128 120,128 120,128 Z" />
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M120,105 L120,143 C120,143 124,147 127,150 L127,150 C127,150 131,146 131,143 C131,139 125,136 123,132 C121,130 121,128 121,128 Z" />
+
+    <!-- Make the ribbon tails cross -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M119,130 L121,130 L121,145 L119,145 Z" />
+
+    <!-- Antibody / shield icon -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M120,45 L130,50 L130,60 L120,65 L110,60 L110,50 Z" />
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M120,47 L128,51 L128,58 L120,62 L112,58 L112,51 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M120,50 L126,53 L126,56 L120,58 L114,56 L114,53 Z" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Whole grain bread loaf -->
+    <path
+        android:fillColor="#DEB887"
+        android:pathData="M70,160 C50,160 40,140 40,120 C40,100 50,80 70,80 C90,80 100,100 100,120 C100,140 90,160 70,160 Z" />
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="2"
+        android:pathData="M70,160 C50,160 40,140 40,120 C40,100 50,80 70,80 C90,80 100,100 100,120 C100,140 90,160 70,160 Z" />
+
+    <!-- Bread slices lines -->
+    <path
+        android:strokeColor="#A1887F"
+        android:strokeWidth="1.5"
+        android:pathData="M50,110 Q70,100 90,110 M50,120 Q70,110 90,120 M50,130 Q70,120 90,130" />
+
+    <!-- Vegetables - carrot -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M140,170 L155,130 L160,130 L175,170 Z" />
+    <path
+        android:fillColor="#F4511E"
+        android:pathData="M142,165 L155,132 L163,132 L173,165 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M148,130 L155,120 L165,130 L155,140 Z" />
+    <path
+        android:strokeColor="#D84315"
+        android:strokeWidth="1"
+        android:pathData="M140,170 L155,130 L160,130 L175,170 Z" />
+
+    <!-- Leafy greens - lettuce / spinach -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M60,170 C40,170 35,145 50,130 C65,115 85,120 90,140 C95,160 80,170 60,170 Z" />
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M65,165 C48,162 45,142 58,130 C70,120 86,124 88,140 C92,155 78,165 65,165 Z" />
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="1.5"
+        android:pathData="M60,170 C40,170 35,145 50,130 C65,115 85,120 90,140 C95,160 80,170 60,170 Z" />
+
+    <!-- Fruit - apple -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M160,120 C180,100 195,105 195,125 C195,145 180,160 160,160 C140,160 130,145 130,125 C130,105 140,100 160,120 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M160,120 C180,100 195,105 195,125 C195,145 180,160 160,160 C140,160 130,145 130,125 C130,105 140,100 160,120 Z" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M155,120 C170,105 182,110 182,125 C182,140 170,152 155,152 C140,152 132,140 132,125 C132,110 140,105 155,120 Z" />
+
+    <!-- Apple stem -->
+    <path
+        android:strokeColor="#5D4037"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M175,105 Q178,95 185,92" />
+
+    <!-- Apple leaf -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M185,92 C195,85 200,90 195,98 C190,102 185,100 185,92 Z" />
+
+    <!-- Fish -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M70,70 C60,60 50,60 45,70 C40,80 50,90 70,90 C90,90 100,80 95,70 C90,60 80,60 70,70 Z" />
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M72,72 C63,64 54,64 50,72 C46,80 54,86 72,86 C88,86 94,80 90,72 C86,64 78,64 72,72 Z" />
+
+    <!-- Fish eye -->
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M82,74 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#333"
+        android:pathData="M83,74 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Fish fin -->
+    <path
+        android:fillColor="#039BE5"
+        android:pathData="M60,85 L50,100 L68,90 Z" />
+
+    <!-- Beans / legumes -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M40,140 C45,135 55,135 60,140 C65,145 55,155 45,155 C35,155 30,145 40,140 Z" />
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M42,142 C46,138 54,138 57,142 C60,146 53,152 46,152 C39,152 34,146 42,142 Z" />
+
+    <!-- Nuts -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M120,65 C130,60 140,65 140,75 C140,85 130,90 120,85 C110,80 110,70 120,65 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M120,68 C128,64 136,68 136,75 C136,82 128,85 120,81 C112,77 112,72 120,68 Z" />
+
+    <!-- Bowl of food -->
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M50,90 L120,90 L120,95 C120,120 90,130 60,130 C35,130 30,110 30,95 Z" />
+    <path
+        android:fillColor="#FFAB91"
+        android:pathData="M52,92 L118,92 L118,97 C118,118 90,126 62,126 C40,126 34,112 34,97 Z" />
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M55,95 L115,95 L115,100 C115,112 90,118 65,118 C48,118 40,108 40,100 Z" />
+
+    <!-- Spoon -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M35,95 C35,80 50,75 55,85 C60,95 45,105 35,95 Z" />
+    <path
+        android:strokeColor="#546E7A"
+        android:strokeWidth="1.5"
+        android:pathData="M35,95 C35,80 50,75 55,85 C60,95 45,105 35,95 Z" />
+
+    <!-- Water drop -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M170,75 C170,68 175,62 180,62 C185,62 190,68 190,75 C190,82 180,88 180,88 C180,88 170,82 170,75 Z" />
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M172,75 C172,70 175,65 179,65 C183,65 186,70 186,75 C186,79 180,83 180,83 C180,83 172,79 172,75 Z" />
+
+    <!-- Toast / bread slice -->
+    <path
+        android:fillColor="#DEB887"
+        android:pathData="M170,130 L185,125 L190,140 L185,155 L170,160 L165,140 Z" />
+    <path
+        android:fillColor="#D2A679"
+        android:pathData="M170,130 L185,125 L190,140 L185,155 L170,160 L165,140 Z" />
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="1.5"
+        android:pathData="M170,130 L185,125 L190,140 L185,155 L170,160 L165,140 Z" />
+
+    <!-- Grill marks on toast -->
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="1"
+        android:pathData="M175,135 H188 M175,145 H188 M175,155 H188" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

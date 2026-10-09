@@ -1,0 +1,73 @@
+        Disease(
+            id = "gastritis_om",
+            name = "Gastritis",
+            category = "Digestive",
+            definition = "Gastritis dhibee gogaa dhiigaa (stomach) hubachuuf qophaayuu, cimaa baay'ee, daawwadee, ykn alcohol baay'ee qiboo danda'u.",
+            symptoms = listOf("Gogaa dhiigaa guddaa ykn rummuu", "Nausea fi vomitin", "Gogaa dhiigaa danda'u haala bu'uraa", "Bloating", "Indigestion"),
+            causes = listOf("H. pylori (Helicobacter pylori) cimaa", "Daawwadee (NSAIDs) badan qabu", "Alcohol baay'ise", "Stress", "Bile reflux", "Autoimmune disorders"),
+            prevention = listOf("H. pylori cimaa ta'uu ykn sabuuna morattii fudhachuu", "Daawwadee baay'ee danda'u ykn sirriitti qabu", "Alcohol hir'isuu", "Gogaa dhiigaa danda'ina danda'ina sirriitti fudhachuu", "Stress hir'isu"),
+            safetyPractices = listOf("NSAIDs yoo gadi gastritis hubachiif irratti hir'isu", "Taabbaa hir'isuu", "Alcohol hir'isuu", "Gogaa dhiigaa gudda ykn sirriitti ifa yoo ta'e hir'isu", "H. pylori ta'een daawwadee fudhachuu fudhachuu"),
+            foodGuidance = "Gogaa dhiigaa sirriitti hunde danda'ina danda'ina sirriitti fudhachuu. Taabbaa, meen, fi fried foods fi caffeine hinkanisu. Oatmeal, banana, fi yogurt kina danda'u. Bashannaaf boodhammatti booda fudhachuu.",
+            medicines = listOf("Antacids (Maalox, Tums)", "H2 blockers (Famotidine)", "PPIs (Omeprazole, Pantoprazole)", "Antibiotics (H. pylori ta'een)"),
+            medicineGuide = "Acids harmachuu daawwadee hundaa'aa sirriitti, gogaa boodhammatti. H. pylori fudhachuu, antibiotics kana ta'een guutuu fudhachuu. NSAIDs ykn taabbaa irraa daawwadee irraa hir'isu.",
+            language = "om",
+            types = listOf(
+                DiseaseType(name = "Erosive Gastritis", description = "Gogaa dhiigaa hubachuuf qophaayuu, erosions ykn ulcers produce."),
+                DiseaseType(name = "Non-Erosive Gastritis", description = "Erosions ykn ulcers hubachiif, gogaa dhiigaa hubachuuf qophaayuu hin danda'u.")
+            )
+        ),
+        Disease(
+            id = "peptic_ulcer_om",
+            name = "Peptic Ulcer Disease",
+            category = "Digestive",
+            definition = "Peptic ulcer disease dhinee gogaa dhiigaa (gastric ulcer) fi small intestine gudatti walitti (duodenal ulcer) hubachuuf qophaayuu, dhie gogaa hubachiif qophaayuu.",
+            symptoms = listOf("Gogaa dhiigaa guddaa ykn rummuu", "Danda'u fi bloating, burping", "Fatty food intolerant", "Heartburn", "Nausea", "Dark fi tarlik stools", "Vomiting blood"),
+            causes = listOf("H. pylori cimaa", "NSAIDs badan qabu", "Alcohol baay'ise", "Stress", "Smoking"),
+            prevention = listOf("H. pylori cimaa ta'uu ykn sabuuna morattii fudhachuu", "Daawwadee baay'ee danda'u ykn sirriitti qabu", "Alcohol hir'isu", "Taabbaa hir'isu", "Stress hir'isu"),
+            safetyPractices = listOf("If sharp, severe abdominal pain yoo ta'e hir'isu", "Vomiting blood fi coffee grounds look yoo ta'e hir'isu", "Black ykn bloody stools yoo ta'e hir'isu", "Healing during NSAIDs hir'isu"),
+            foodGuidance = "Acid neutralisehuuf, balanced meals danda'ina sirriitti fudhachuu. Taabbaa, meen, acidic foods, caffeine, alcohol hinkanisu. Fiber-rich foods fi probiotics (yogurt, kefir) danda'u.",
+            medicines = listOf("PPIs (Omeprazole, Esomeprazole)", "H2 blockers (Famotidine)", "Antacids", "Antibiotics (H. pylori)"),
+            medicineGuide = "PPIs fi H2 blockers danda'ina hunde sirriitti fudhachuu. H. pylori fudhachuu, antibiotics guutuu fudhachuu. Healing during NSAIDs ykn taabbaa hir'isu.",
+            language = "om",
+            types = listOf(
+                DiseaseType(name = "Gastric Ulcer", description = "Gogaa dhiigaa hubachiif gogaa (stomach) jiraachuu."),
+                DiseaseType(name = "Duodenal Ulcer", description = "Small intestine guddaati walitti (duodenum) jiraachuu.")
+            )
+        ),
+        Disease(
+            id = "gerd_om",
+            name = "GERD (Acid Reflux)",
+            category = "Digestive",
+            definition = "GERD dhiige gogaa dhiigaa (esophagus) hunde ta'uu, mouth fi stomach ka'uu sababbaaf dhiibu cimaa qorichuu, chronic condition hunde danda'u.",
+            symptoms = listOf("Heartburn (chest guddaa rummuu)", "Food fi sour liquid regurgitation", "Swallowing difficulty", "Chest pain", "Dry cough", "Hoarseness fi sore throat", "Throat lump sensation", "Nighttime food fi sour liquid regurgitation"),
+            causes = listOf("Lower esophageal sphincter weak", "Hiatal hernia", "Obesity", "Pregnancy", "Smoking", "Certain medications", "Large meals fi lying down after eating"),
+            prevention = listOf("Gogaa dhiigaa danda'ina danda'ina sirriitti fudhachuu", "Boomma fudhachuu after eating hin taane", "Healthy weight maintain", "Trigger foods avoid (spicy, fatty, acidic)", "Taabbaa hir'isu", "Bed head elevate"),
+            safetyPractices = listOf("Severe chest pain yoo ta'e hir'isu", "Swallowing difficulty ykn painful swallowing yoo ta'e hir'isu", "Unexplained weight loss yoo ta'e hir'isu", "Vomiting blood fi black stools yoo ta'e hir'isu", "Bedtime 2-3 hours fudhachuu boodhammatti fudhachuu"),
+            foodGuidance = "Spicy, fatty, acidic foods, chocolate, caffeine, mint trigger foods avoid. Danda'ina meals fi late eating 2-3 hours boodhammatti. Healthy weight. Lean proteins, vegetables, whole grains danda'u.",
+            medicines = listOf("Antacids (Aluminum hydroxide, Magnesium hydroxide)", "H2 blockers (Famotidine, Cimetidine)", "PPIs (Omeprazole, Lansoprazole)", "Foaming agents (Gaviscon)"),
+            medicineGuide = "PPIs 30-60 min danda'ina fudhachuu. Antacids boomma relief boodhammetti. Long-term use doctor review, older adults baay'ee.",
+            language = "om",
+            types = listOf(
+                DiseaseType(name = "Non-Erosive Reflux Disease (NERD)", description = "Esophagus damage hubachiif heartburn symptoms."),
+                DiseaseType(name = "Erosive Esophagitis", description = "Stomach acid daawwadee esophagitis ykn damage.")
+            )
+        ),
+        Disease(
+            id = "ibs_om",
+            name = "Irritable Bowel Syndrome (IBS)",
+            category = "Digestive",
+            definition = "IBS large intestine fudhachuu danda'u, cramping, abdominal pain, bloating, gas, diarrhea fi constipation ykn baay'een danda'u.",
+            symptoms = listOf("Abdominal pain fi cramping", "Bloating fi gas", "Diarrhea, constipation, ykn baay'een danda'u", "Stool mucus", "Incomplete evacuation feeling", "Stress fi meals related bowel habit changes"),
+            causes = listOf("Gut bacteria changes", "Intestinal inflammation", "Severe infection (gastroenteritis)", "Nervous system abnormalities", "Food triggers", "Stress"),
+            prevention = listOf("Trigger foods identify fi avoid", "Stress hir'isu", "Balanced meals danda'ina fudhachuu", "Enough fiber", "Physically active", "Food fi symptom diary hojeessa"),
+            safetyPractices = listOf("Unexplained weight loss yoo ta'e hir'isu", "Stool blood yoo ta'e hir'isu", "Persistent vomiting yoo ta'e hir'isu", "Nighttime wake symptoms yoo ta'e hir'isu", "Treatment despite symptoms worsen yoo hir'isu"),
+            foodGuidance = "Low-FODMAP diet trigger foods identify. Danda'ina meals fi qabataa portions. Soluble fiber (oats, banana, carrots) increase. Hydrated. Gas-producing foods (beans, cabbage) fi artificial sweeteners limit.",
+            medicines = listOf("Antispasmodics (cramping)", "Laxatives (constipation)", "Anti-diarrheal (Loperamide)", "Tricyclic antidepressants (low dose, pain)", "Rifaximin (bloating)"),
+            medicineGuide = "Symptom treatment baay'ee: laxatives fi anti-diarrheals bowel habit changes. Antispasmodics meals boodhammatti. Pain antidepressants low-dose doctor darressa.",
+            language = "om",
+            types = listOf(
+                DiseaseType(name = "IBS with Constipation (IBS-C)", description = "Constipation predominant symptom."),
+                DiseaseType(name = "IBS with Diarrhea (IBS-D)", description = "Diarrhea predominant symptom."),
+                DiseaseType(name = "Mixed IBS (IBS-M)", description = "Constipation ykn diarrhea danda'ina.")
+            )
+        ),

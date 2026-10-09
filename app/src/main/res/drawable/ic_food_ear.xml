@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#EAF2F8"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Healthy bowl / plate -->
+    <path
+        android:fillColor="#80CBC4"
+        android:pathData="M35,170 C35,155 55,145 90,145 C125,145 155,155 155,170 C155,185 125,195 90,195 C55,195 35,185 35,170 Z" />
+
+    <!-- Soup / food volume inside bowl -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M35,160 C35,150 55,142 90,142 C125,142 155,150 155,160 C155,170 125,178 90,178 C55,178 35,170 35,160 Z" />
+
+    <!-- Spoon with liquid -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M190,110 L205,110 L200,70 L185,70 Z" />
+    <path
+        android:fillColor="#FF8A65"
+        android:pathData="M187,80 L195,80 L192,70 L190,70 Z" />
+
+    <!-- Bowl rim highlight -->
+    <path
+        android:strokeColor="#26A69A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M35,170 C35,155 55,145 90,145 C125,145 155,155 155,170 C155,185 125,195 90,195 C55,195 35,185 35,170 Z" />
+
+    <!-- Left ear - healthy leafy greens -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M55,75 C75,55 95,60 100,85 C90,95 65,90 55,75 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M58,78 C78,58 98,63 103,88 C93,98 68,93 58,78 Z" />
+
+    <!-- Right ear - ear-auditory healthy fruits -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M185,75 C215,55 235,70 230,95 C215,105 185,100 185,75 Z" />
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M188,78 C218,58 238,73 233,98 C218,108 188,103 188,78 Z" />
+
+    <!-- Hydration water drop -->
+    <path
+        android:fillColor="#00ACC1"
+        android:pathData="M120,130 L120,170 C135,165 135,110 120,105 C105,110 105,165 120,170 Z" />
+
+    <!-- Medical cross badge for hearing health -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

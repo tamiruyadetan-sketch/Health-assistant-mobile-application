@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+    <!-- Medical Cross Shield -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M120,40 L180,60 V120 C180,165 120,195 120,195 C120,195 60,165 60,120 V60 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M110,85 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

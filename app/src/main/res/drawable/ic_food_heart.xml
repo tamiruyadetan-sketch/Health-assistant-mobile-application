@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Heart shape as food plate -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M120,190 C55,140 35,75 75,48 C98,34 112,48 112,48 C112,48 128,34 151,48 C191,75 175,140 120,190 Z" />
+
+    <!-- Heart as food texture lines -->
+    <path
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M120,168 C55,140 35,85 75,56 C98,43 112,55 112,55 C112,55 128,43 151,56 C191,85 178,140 120,168 Z" />
+
+    <!-- Heartbeat pulse line -->
+    <path
+        android:strokeColor="#00897B"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M58,118 H88 L98,92 L112,140 L128,72 L142,128 L152,108 L162,118 H190" />
+
+    <!-- Fruit on heart (watermelon) -->
+    <ellipse
+        android:fillColor="#FF8A65"
+        android:pathData="M80,90 C60,90 60,115 80,115 C92,115 92,100 80,100 Z" />
+    <ellipse
+        android:fillColor="#E65100"
+        android:pathData="M80,90 C65,95 65,108 80,108 C90,108 90,102 80,102 Z" />
+    <ellipse
+        android:fillColor="#FFB300"
+        android:pathData="M78,88 C72,88 72,92 78,92 Z" />
+
+    <!-- Fruit on heart (apple) -->
+    <ellipse
+        android:fillColor="#FF5722"
+        android:pathData="M150,90 C170,70 178,85 176,105 C172,115 165,120 160,118 C150,114 145,105 148,95 C150,90 154,90 150,90 Z" />
+    <ellipse
+        android:fillColor="#F4511E"
+        android:pathData="M150,90 C163,76 175,88 172,105 C168,113 160,118 155,116 C148,112 145,104 148,95 C150,90 153,90 150,90 Z" />
+    <ellipse
+        android:fillColor="#FF8A65"
+        android:pathData="M152,88 C157,84 157,90 152,90 Z" />
+
+    <!-- Green leafy green (spinach) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M120,130 C135,130 140,115 138,95 C135,85 128,85 122,95 C120,95 115,90 115,100 C118,110 122,118 120,130 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M120,130 C145,130 150,115 148,95 C145,85 138,85 132,95 C130,95 125,90 125,100 C128,110 132,118 120,130 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M118,128 C148,128 153,113 151,93 C148,83 141,83 135,93 C133,93 128,93 128,103 C131,113 135,121 118,128 Z" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

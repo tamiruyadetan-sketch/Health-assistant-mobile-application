@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M40,180 C40,160 70,150 90,150 C110,150 130,160 130,180 C130,200 110,210 90,210 C70,210 40,200 40,180 Z" />
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M50,170 C50,160 70,152 90,152 C110,152 130,160 130,170 C130,178 110,185 90,185 C70,185 50,178 50,170 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M60,50 C80,50 100,70 100,95 C100,120 80,140 60,140 C40,140 20,120 20,95 C20,70 40,50 60,50 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M180,50 C200,50 220,70 220,95 C220,120 200,140 180,140 C160,140 140,120 140,95 C140,70 160,50 180,50 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M120,75 C108,75 100,85 100,98 C100,111 108,118 120,118 C132,118 140,111 140,98 C140,85 132,75 120,75 Z" />
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>

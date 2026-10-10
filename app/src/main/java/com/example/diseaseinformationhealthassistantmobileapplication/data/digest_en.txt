@@ -1,0 +1,73 @@
+        Disease(
+            id = "gastritis_en",
+            name = "Gastritis",
+            category = "Digestive",
+            definition = "Gastritis is inflammation of the stomach lining, often caused by infection, pain relievers, or excessive alcohol.",
+            symptoms = listOf("Upper abdominal pain or burning", "Nausea and vomiting", "Feeling of fullness in the upper abdomen", "Bloating", "Indigestion"),
+            causes = listOf("Helicobacter pylori (H. pylori) infection", "Regular use of pain relievers (NSAIDs)", "Excessive alcohol", "Stress", "Bile reflux", "Autoimmune conditions"),
+            prevention = listOf("Practice good hygiene and handwashing", "Use pain relievers cautiously and as directed", "Limit alcohol", "Eat smaller, more frequent meals", "Manage stress"),
+            safetyPractices = listOf("Avoid NSAIDs if you have a history of stomach ulcers", "Avoid smoking", "Limit alcohol", "Seek medical care for severe or persistent abdominal pain", "Complete prescribed treatment for H. pylori"),
+            foodGuidance = "Eat small, frequent meals that are gentle on the stomach. Avoid spicy, acidic, or fried foods and caffeine. Include soothing foods like oatmeal, bananas, and yogurt. Avoid eating late at night.",
+            medicines = listOf("Antacids (Maalox, Tums)", "H2 blockers (Famotidine)", "Proton pump inhibitors (Omeprazole, Pantoprazole)", "Antibiotics (for H. pylori infection)"),
+            medicineGuide = "Take acid-reducing medicines as prescribed, often before meals. Complete the full course of antibiotics if H. pylori is found. Avoid self-medicating with NSAIDs.",
+            language = "en",
+            types = listOf(
+                DiseaseType(name = "Erosive Gastritis", description = "Stomach lining wears away, causing erosions or ulcers."),
+                DiseaseType(name = "Non-Erosive Gastritis", description = "Inflammation of the stomach lining without erosions or ulcers.")
+            )
+        ),
+        Disease(
+            id = "peptic_ulcer_en",
+            name = "Peptic Ulcer Disease",
+            category = "Digestive",
+            definition = "Peptic ulcer disease is the presence of open sores on the inside lining of the stomach (gastric ulcer) or the upper part of the small intestine (duodenal ulcer).",
+            symptoms = listOf("Burning stomach pain", "Feeling of fullness, bloating, or burping", "Fatty-food intolerance", "Heartburn", "Nausea", "Dark or tarry stools", "Vomiting blood"),
+            causes = listOf("H. pylori infection", "Regular use of NSAIDs", "Excessive alcohol", "Stress", "Smoking"),
+            prevention = listOf("Protect yourself from H. pylori infection", "Use pain relievers with caution", "Limit alcohol", "Do not smoke", "Manage stress"),
+            safetyPractices = listOf("Seek immediate care for sharp, severe abdominal pain", "Report vomiting blood or material that looks like coffee grounds", "Report black or bloody stools", "Avoid NSAIDs while healing"),
+            foodGuidance = "Eat regular, balanced meals to help neutralize stomach acid. Avoid spicy foods, acidic foods, caffeine, and alcohol if they worsen symptoms. Include fiber-rich foods and probiotics (yogurt, kefir).",
+            medicines = listOf("Proton pump inhibitors (Omeprazole, Esomeprazole)", "H2 blockers (Famotidine)", "Antacids", "Antibiotics (for H. pylori)"),
+            medicineGuide = "Take PPIs and H2 blockers before meals as prescribed. Complete the full course of antibiotics if H. pylori is present. Avoid NSAIDs and smoking during treatment.",
+            language = "en",
+            types = listOf(
+                DiseaseType(name = "Gastric Ulcer", description = "An open sore on the inside lining of the stomach."),
+                DiseaseType(name = "Duodenal Ulcer", description = "An open sore on the inside of the upper part of the small intestine (duodenum).")
+            )
+        ),
+        Disease(
+            id = "gerd_en",
+            name = "GERD (Acid Reflux)",
+            category = "Digestive",
+            definition = "GERD is a chronic condition in which stomach acid frequently flows back into the tube connecting your mouth and stomach (esophagus).",
+            symptoms = listOf("Heartburn (burning chest pain)", "Regurgitation of food or sour liquid", "Difficulty swallowing", "Chest pain", "Dry cough", "Hoarseness or sore throat", "Sensation of a lump in the throat", "Regurgitation of food or sour liquid at night"),
+            causes = listOf("Weak lower esophageal sphincter", "Hiatal hernia", "Obesity", "Pregnancy", "Smoking", "Certain medications", "Eating large meals or lying down after eating"),
+            prevention = listOf("Eat smaller, more frequent meals", "Avoid lying down after eating", "Maintain a healthy weight", "Avoid trigger foods (spicy, fatty, acidic)", "Quit smoking", "Elevate the head of your bed"),
+            safetyPractices = listOf("Seek medical care for severe chest pain", "Report difficulty or painful swallowing", "Report unexplained weight loss", "Report vomiting blood or black stools", "Avoid eating 2-3 hours before bedtime"),
+            foodGuidance = "Avoid trigger foods such as spicy, fatty, or acidic foods, chocolate, caffeine, and mint. Eat smaller meals and avoid eating within 2-3 hours of bedtime. Maintain a healthy weight. Choose lean proteins, vegetables, and whole grains.",
+            medicines = listOf("Antacids (Aluminum hydroxide, Magnesium hydroxide)", "H2 blockers (Famotidine, Cimetidine)", "Proton pump inhibitors (Omeprazole, Lansoprazole)", "Foaming agents (Gaviscon)"),
+            medicineGuide = "Take PPIs 30-60 minutes before meals. Use antacids for quick relief as directed. Long-term use should be reviewed by a doctor, especially in older adults.",
+            language = "en",
+            types = listOf(
+                DiseaseType(name = "Non-Erosive Reflux Disease (NERD)", description = "Heartburn symptoms without visible damage to the esophagus."),
+                DiseaseType(name = "Erosive Esophagitis", description = "Inflammation and damage to the esophagus from stomach acid.")
+            )
+        ),
+        Disease(
+            id = "ibs_en",
+            name = "Irritable Bowel Syndrome (IBS)",
+            category = "Digestive",
+            definition = "IBS is a common disorder affecting the large intestine, causing cramping, abdominal pain, bloating, gas, and diarrhea or constipation or both.",
+            symptoms = listOf("Abdominal pain or cramping", "Bloating and gas", "Diarrhea, constipation, or alternating between both", "Mucus in the stool", "Feeling of incomplete evacuation", "Bowel habits changes related to stress or meals"),
+            causes = listOf("Changes in gut bacteria", "Intestinal inflammation", "Severe infection (gastroenteritis)", "Nervous system abnormalities", "Food triggers", "Stress"),
+            prevention = listOf("Identify and avoid trigger foods", "Manage stress", "Eat regular, balanced meals", "Get enough fiber", "Stay physically active", "Keep a food and symptom diary"),
+            safetyPractices = listOf("Seek medical care for unexplained weight loss", "Report blood in the stool", "Report persistent vomiting", "Report symptoms that wake you at night", "Report worsening symptoms despite treatment"),
+            foodGuidance = "Follow a low-FODMAP diet to identify trigger foods. Eat regular meals and avoid large portions. Increase soluble fiber (oats, bananas, carrots). Stay hydrated. Limit gas-producing foods (beans, cabbage) and artificial sweeteners.",
+            medicines = listOf("Antispasmodics (for cramping)", "Laxatives (for constipation)", "Anti-diarrheal (Loperamide)", "Tricyclic antidepressants (low dose, for pain)", "Rifaximin (for bloating)"),
+            medicineGuide = "Treat symptoms with the appropriate medicine: laxatives or anti-diarrheals for bowel habit changes. Antispasmodics may be taken before meals. Discuss low-dose antidepressants for pain with your doctor.",
+            language = "en",
+            types = listOf(
+                DiseaseType(name = "IBS with Constipation (IBS-C)", description = "Predominant symptom is constipation."),
+                DiseaseType(name = "IBS with Diarrhea (IBS-D)", description = "Predominant symptom is diarrhea."),
+                DiseaseType(name = "Mixed IBS (IBS-M)", description = "Alternating constipation and diarrhea.")
+            )
+        ),

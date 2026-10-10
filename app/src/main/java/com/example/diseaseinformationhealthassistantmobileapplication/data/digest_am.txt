@@ -1,0 +1,72 @@
+        Disease(
+            id = "gastritis_am",
+            name = "Gastritis",
+            category = "Digestive",
+            definition = "Gastritis የስማ ላይ የቆዳ እሳት የሚያሳክክና የሚያቆስል የቆዳ በሽታ ነው።",
+            symptoms = listOf("ለማት የቆዳ ግጥም ወይም መሸን ሕሊና", "ንዝናና ወይም ማዝያ", "ለማት የቆዳ እንትሮ ውስጥ ሥፍረት", "ጨመር", "እንዳበብ"),
+            causes = listOf("H. pylori (Helicobacter pylori) እጥረት", "አንባ ምገፅ ፍትሄዎች (NSAIDs)", "አሽረም ሊቀ", "አካል ፍጹም ይጠይቁ", "ብሉድ ፎናሮች", "ሞባቲክ የሰውነት ኮንዶይም"),
+            prevention = listOf("H. pylori ፍትሄዎችን ትንሽ እንዳይወጡ", "አጋራ መጠበቅ", "አሽረም ፎናሮች ትንሽ ግን ማጠቀም", "አሽረም መቀነስ", "አካል ፍጹም ይቀንሱ"),
+            safetyPractices = listOf("NSAIDs yoo gastritis ን ግዜ እንድረግ አይድል", "አሽረም", "አሽረም ፎናሮች መቀነስ", "ግጥም ወይም ስሜተኛ ግጥም የሆኑ ጽንፈኝ ወይም ማዝያ የሚመጡ", "H. pylori daawwadee fudhachuu fudhachuu"),
+            foodGuidance = "ሰማ ላይ ትንሽ መገረጫችን ያጠቃለሉ. መንድ ፎናሮች ታሽ ከሆኑ የማይሸን ምግቦች እንዳጠናቀሙ. አሽረም, መንድ ፎናሮች ወይም ከኢንግሪዳ የማይታሰቁ ፀረ ፍላፍሎችን ያውጡ. ባናን ወይም የማጽረፍ ፍላፍሮችን ይጠቀሉ. ከመጀመሪያው ወደ ስሜተኛው ላይ የማይሠሩ።",
+            medicines = listOf("Antacids (Maalox, Tums)", "H2 blockers (Famotidine)", "Proton pump inhibitors (Omeprazole, Pantoprazole)", "Antibiotics (H. pylori)"),
+            medicineGuide = "የደም ግን መድሃኒቱን ትንሽ ግን ማጠቀም, ግዜ ግን ማጠቀም. H. pylori daawwadee fudhachuu, antibiotics kana ta'een guutuu fudhachuu. NSAIDs ykn taabbaa irraa daawwadee irraa hir'isu.",
+            language = "am",
+            types = listOf(
+                DiseaseType(name = "Erosive Gastritis", description = "የቆዳ ላይ እሳት ከሆነ ጭነት ykn ማጽረፍ እንዳጋራል።"),
+                DiseaseType(name = "Non-Erosive Gastritis", description = "ጭነት ykn ማጽረፍ አለመሆን ጋር የቆዳ አሽት እሳት።")
+            )
+        ),
+        Disease(
+            id = "peptic_ulcer_am",
+            name = "Peptic Ulcer Disease",
+            category = "Digestive",
+            definition = "Peptic ulcer disease የስማ ላይ የቆዳ መኳስ (gastric ulcer) ወይም የሰር እንክብል ላይ የሚታወቅ የሰማ ላይ የሚታወቅ እሳት ነው።",
+            symptoms = listOf("ለማት የቆዳ ግጥም ወይም መሸን ሕሊና", "ሥፍረት, ጨመር, ykn ማዝያ", "የሰስ ፍልት ቀይ መቆጣጠሪ", "ሕሊና መሸን", "ንዝናና", "ግን ከሥራ ወይም ባለታሽ ግን ግን ከሥራ", "ምዝ አንብብብ"),
+            causes = listOf("H. pylori እጥረት", "NSAIDs አሉ", "አሽረም ሊቀ", "አካል ፍጹም ይጠይቁ", "ሶኪኦ ካይ ፎኒ"),
+            prevention = listOf("H. pylori ፍትሄዎችን ትንሽ እንዳይወጡ", "አጋራ መጠበቅ", "አሽረም ፎናሮች ትንሽ ግን ማጠቀም", "ሶኪኦ ካይ ፎኒ", "አካል ፍጹም ይቀንሱ"),
+            safetyPractices = listOf("ማስፈን ፕሪንት ጽንፈኝ አለመተመሩ ወይም ባለታሽ ግጥም ግስ በግስ ሕሊና yoo ta'e hir'isu", "ምዝ አንብብብ ykn ባለታሽ ግጥም የሆኑ ጽንፈኝ ወይም ማዝያ የሚመጡ", "ሕሊና መሸን የሚመጡ", "ፍትሄዎችን መቀነስ"),
+            foodGuidance = "ምግብ ግስ በግስ ግን ግን ነው. ፍጺሞች, መንድ ፎናሮች, ከሥራ, እንዳጠናቀሙ. ባናን ወይም የማጽረፍ ፍላፍሮችን ይጠቀሉ. እንቀብል ምግብ መጠቀም.",
+            medicines = listOf("Proton pump inhibitors (Omeprazole, Esomeprazole)", "H2 blockers (Famotidine)", "Antacids", "Antibiotics (H. pylori)"),
+            medicineGuide = "PPIs fi H2 blockers food fi danda'ina sirriitti fudhachuu. H. pylori daawwadee fudhachuu, antibiotics kana ta'een guutuu fudhachuu. NSAIDs ykn taabbaa irraa daawwadee irraa hir'isu.",
+            language = "am",
+            types = listOf(
+                DiseaseType(name = "Gastric Ulcer", description = "የቆዳ ላይ የሚታወቅ እሳት (stomach)।"),
+                DiseaseType(name = "Duodenal Ulcer", description = "የሰር እንክብል ላይ የሚታወቅ እሳት।")
+            )
+        ),
+        Disease(
+            id = "gerd_am",
+            name = "GERD (Acid Reflux)",
+            category = "Digestive",
+            definition = "GERD የስማ ላይ የቆዳ እሳት የሚያሳክክና የሚያቆስል የቆዳ በሽታ ነው።",
+            symptoms = listOf("ሕሊና መሸን ወይም መሸን ሕሊና", "ፍቓድ ወይም ማዝያ የሚመጡ", "ማውጫ ማጠና ቀይ መቆጣጠሪ", "ሕሊና መሸን", "ለማት ጨመር", "ሰውነት ykn ጥብ መሸን", "የጥበብ ምስሎ መሆን", "ከመጀመሪያው ወደ ስሜተኛው ላይ የማይሠሩ"),
+            causes = listOf("የሰማ ላይ የቆዳ እሳት", "አሽረም ሊቀ", "የደም ግፊት መለሰለኛ መጠን", "ሶቆን ትናት", "አሽረም", "የሞባቲክ ፎናሮች", "የደም ግፊት ምጉጫ ጠቀሚ ፍትሄዎች"),
+            prevention = listOf("H. pylori ፍትሄዎችን ትንሽ እንዳይወጡ", "አጋራ መጠበቅ", "አሽረም ፎናሮች ትንሽ ግን ማጠቀም", "አሽረም መቀነስ", "አካል ፍጹም ይቀንሱ"),
+            safetyPractices = listOf("NSAIDs yoo gastritis ን ግዜ እንድረግ አይድል", "አሽረም", "አሽረም ፎናሮች መቀነስ", "ግጥም ወይም ስሜተኛ ግጥም የሆኑ ጽንፈኝ ወይም ማዝያ የሚመጡ", "H. pylori daawwadee fudhachuu fudhachuu"),
+            foodGuidance = "ሰማ ላይ ትንሽ መገረጫችን ያጠቃለሉ. መንድ ፎናሮች ታሽ ከሆኑ የማይሸን ምግቦች እንዳጠናቀሙ. አሽረም, መንድ ፎናሮች ወይም ከኢንግሪዳ የማይታሰቁ ፀረ ፍላፍሎችን ያውጡ. ባናን ወይም የማጽረፍ ፍላፍሮችን ይጠቀሉ. ከመጀመሪያው ወደ ስሜተኛው ላይ የማይሠሩ።",
+            medicines = listOf("Antacids (Maalox, Tums)", "H2 blockers (Famotidine)", "Proton pump inhibitors (Omeprazole, Pantoprazole)", "Antibiotics (H. pylori)"),
+            medicineGuide = "የደም ግን መድሃኒቱን ትንሽ ግን ማጠቀም, ግዜ ግን ማጠቀም. H. pylori daawwadee fudhachuu, antibiotics kana ta'een guutuu fudhachuu. NSAIDs ykn taabbaa irraa daawwadee irraa hir'isu.",
+            language = "am",
+            types = listOf(
+                DiseaseType(name = "Erosive Gastritis", description = "የቆዳ ላይ እሳት ከሆነ ጭነት ykn ማጽረፍ እንዳጋራል።"),
+                DiseaseType(name = "Non-Erosive Gastritis", description = "ጭነት ykn ማጽረፍ አለመሆን ጋር የቆዳ አሽት እሳት።")
+            )
+        ),
+        Disease(
+            id = "ibs_am",
+            name = "Irritable Bowel Syndrome (IBS)",
+            category = "Digestive",
+            definition = "IBS የሰር እንክብል ላይ የሚታወቅ የሰማ ላይ የሚታወቅ እሳት ነው።",
+            symptoms = listOf("ለማት የቆዳ ግጥም ወይም መሸን ሕሊና", "ጨመር", "እንዳበብ", "ንዝናና", "ሕሊና መሸን", "ማስጠንጠር የሚከፈል ፈተኛ", "የሰማ ላይ የሚታወቅ እሳት"),
+            causes = listOf("H. pylori እጥረት", "NSAIDs አሉ", "አሽረም ሊቀ", "አካል ፍጹም ይጠይቁ", "ብሉድ ፎናሮች", "ሞባቲክ የሰውነት ኮንዶይም"),
+            prevention = listOf("H. pylori ፍትሄዎችን ትንሽ እንዳይወጡ", "አጋራ መጠበቅ", "አሽረም ፎናሮች ትንሽ ግን ማጠቀም", "አሽረም መቀነስ", "አካል ፍጹም ይቀንሱ"),
+            safetyPractices = listOf("NSAIDs yoo gastritis ን ግዜ እንድረግ አይድል", "አሽረም", "አሽረም ፎናሮች መቀነስ", "ግጥም ወይም ስሜተኛ ግጥም የሆኑ ጽንፈኝ ወይም ማዝያ የሚመጡ", "H. pylori daawwadee fudhachuu fudhachuu"),
+            foodGuidance = "ሰማ ላይ ትንሽ መገረጫችን ያጠቃለሉ. መንድ ፎናሮች ታሽ ከሆኑ የማይሸን ምግቦች እንዳጠናቀሙ. አሽረም, መንድ ፎናሮች ወይም ከኢንግሪዳ የማይታሰቁ ፀረ ፍላፍሎችን ያውጡ. ባናን ወይም የማጽረፍ ፍላፍሮችን ይጠቀሉ. ከመጀመሪያው ወደ ስሜተኛው ላይ የማይሠሩ።",
+            medicines = listOf("Antacids (Maalox, Tums)", "H2 blockers (Famotidine)", "Proton pump inhibitors (Omeprazole, Pantoprazole)", "Antibiotics (H. pylori)"),
+            medicineGuide = "የደም ግን መድሃኒቱን ትንሽ ግን ማጠቀም, ግዜ ግን ማጠቀም. H. pylori daawwadee fudhachuu, antibiotics kana ta'een guutuu fudhachuu. NSAIDs ykn taabbaa irraa daawwadee irraa hir'isu.",
+            language = "am",
+            types = listOf(
+                DiseaseType(name = "Erosive Gastritis", description = "የቆዳ ላይ እሳት ከሆነ ጭነት ykn ማጽረፍ እንዳጋራል።"),
+                DiseaseType(name = "Non-Erosive Gastritis", description = "ጭነት ykn ማጽረፍ አለመሆን ጋር የቆዳ አሽት እሳት።")
+            )
+        ),

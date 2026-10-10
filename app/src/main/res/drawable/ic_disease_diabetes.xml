@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M120,120m-110,0a110,110 0 1,0 220,0a110,110 0 1,0 -220,0" />
+
+    <!-- Insulin vial -->
+    <path
+        android:fillColor="#E1BEE7"
+        android:pathData="M100,70 L100,160 C100,166 106,170 112,170 L128,170 C134,170 140,166 140,160 L140,70 C140,64 134,60 128,60 L112,60 C106,60 100,64 100,70 Z" />
+    <path
+        android:strokeColor="#7B1FA2"
+        android:strokeWidth="3"
+        android:pathData="M100,70 L100,160 C100,166 106,170 112,170 L128,170 C134,170 140,166 140,160 L140,70 C140,64 134,60 128,60 L112,60 C106,60 100,64 100,70 Z" />
+
+    <!-- Vial cap -->
+    <path
+        android:fillColor="#7B1FA2"
+        android:pathData="M100,70 L140,70 L140,78 L100,78 Z" />
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M100,70 L140,70 L140,74 L100,74 Z" />
+
+    <!-- Liquid in vial -->
+    <path
+        android:fillColor="#7E57C2"
+        android:pathData="M103,90 L137,90 L137,158 C137,162 134,165 130,165 L110,165 C106,165 103,162 103,158 Z" />
+    <path
+        android:fillColor="#B39DDB"
+        android:pathData="M105,95 L130,95 L130,155 C130,158 128,160 125,160 L115,160 C112,160 105,158 105,155 Z" />
+
+    <!-- Syringe -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M155,100 L175,100 L175,155 L155,155 Z" />
+    <path
+        android:strokeColor="#9E9E9E"
+        android:strokeWidth="2"
+        android:pathData="M155,100 L175,100 L175,155 L155,155 Z" />
+
+    <!-- Syringe plunger -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M158,92 L172,92 L172,100 L158,100 Z" />
+
+    <!-- Syringe needle -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M165,155 L175,170 L165,170 Z" />
+
+    <!-- Syringe markings -->
+    <path
+        android:strokeColor="#9E9E9E"
+        android:strokeWidth="1"
+        android:pathData="M155,110 H175 M155,120 H175 M155,130 H175 M155,140 H175" />
+
+    <!-- Sugar cube / sweet symbol -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M60,130 L80,130 L80,150 L60,150 Z" />
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M60,130 L80,130 L80,134 L60,134 Z" />
+    <path
+        android:strokeColor="#FF8A65"
+        android:strokeWidth="1.5"
+        android:pathData="M60,130 L80,130 L80,150 L60,150 Z" />
+
+    <!-- Glucose meter -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M40,50 L55,50 L55,40 L40,40 Z" />
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M42,42 L53,42 L53,48 L42,48 Z" />
+
+    <!-- Medical cross badge -->
+    <path
+        android:fillColor="#00897B"
+        android:pathData="M120,170 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" />
+</vector>
